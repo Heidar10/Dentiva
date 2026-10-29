@@ -1,0 +1,109 @@
+.banner__content {
+    display: flex;
+    flex-direction: row;
+}
+.banner__content-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 56px;
+}
+.banner__title {
+    font-size: 60px;
+    text-align: start;
+    line-height: 120%;
+}
+
+.banner__title span {
+    background-image: url(../../images/lines.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center 100%;
+    background-size: 100% auto;
+}
+.banner__desc {
+    text-align: start;
+}
+.banner__btn {
+}
+.banner__contacts {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 20px 0px 30px 0px;
+}
+
+.banner__emergency-box {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.banner__emergency-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: start;
+}
+.emergency-title {
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1376f8ff;
+}
+.banner__emergency-phone {
+    color: #011632ff;
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.banner__review-card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 8px 42px 0 rgba(0, 0, 0, 0.08);
+    background: #fff;
+    max-width: 375px;
+    width: 100%;
+}
+.banner__review-header {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.banner__review-name {
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 155%;
+    text-align: start;
+}
+.banner__review-name span {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 155%;
+}
+
+.banner__review-linkedin {
+    margin-left: auto;
+}
+.banner__review-text {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 155%;
+    text-align: start;
+}
+
+/* //// */
+.banner__content-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

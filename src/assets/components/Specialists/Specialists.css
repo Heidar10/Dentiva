@@ -1,0 +1,114 @@
+.specialists {
+    background: #e6f6feff;
+}
+.specialists__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 60px 0;
+}
+.specialists__title span {
+    background-image: url(../../images/lines.svg);
+    background-repeat: no-repeat;
+    background-position: center 100%;
+}
+
+.specialists__desc {
+    max-width: 480px;
+    width: 100%;
+}
+
+/* ////////////////// */
+
+.specialists__swiper {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden; /* Ховає все, що вилазить за межі */
+    margin: 0 auto;
+}
+.specialist-card {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 340px;
+    background-color: #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.specialist-card__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Задаємо правильну поведінку для слайда у Swiper */
+/* .specialists__slide {
+    width: 280px; 
+    height: auto;
+} */
+
+.specialists__slide {
+    width: 100%;
+    /* Додаємо фіксовану або максимальну ширину для однієї картки, 
+       щоб Swiper міг її коректно обчислити */
+    max-width: 280px; /* (або підставте вашу бажану ширину картки, наприклад 300px) */
+}
+
+.specialist-card__social {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}
+
+.specialist-card__social img {
+    width: 30px;
+    height: 30px;
+}
+
+.specialist-card__info {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    backdrop-filter: blur(200px);
+    background: linear-gradient(225deg, #ffffff 0%, #25b8b0 100%);
+    padding: 13px 0 18px 25px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: start;
+}
+
+.specialist-card__name {
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: white;
+}
+
+.specialist-card__role {
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 155%;
+    letter-spacing: 0.01em;
+    color: white;
+}
+
+.specialists__nav {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.specialists-button-prev,
+.specialists-button-next {
+    border: 1px solid #d1d5db;
+    background: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    padding: 12px 24px;
+    display: flex;
+}

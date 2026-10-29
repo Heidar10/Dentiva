@@ -1,0 +1,75 @@
+.new-patients__content {
+    display: flex;
+    flex-direction: row;
+    gap: 164px;
+    justify-content: space-between;
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+}
+.new-patients__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: start;
+}
+.new-patients__title {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 125%;
+    text-transform: capitalize;
+    color: #011632;
+}
+
+.new-patients__title span {
+    background-image: url(../../images/lines.svg);
+    background-repeat: no-repeat;
+    background-position: center 100%;
+}
+
+.new-patients__description {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 155%;
+    letter-spacing: 0.01em;
+    color: #3c4959;
+}
+.new-patients__form-content {
+    display: flex;
+    flex-direction: row;
+}
+.new-patients__input {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    letter-spacing: 0.01em;
+    text-indent: 20px;
+
+    max-width: 310px;
+    width: 100%;
+    color: #3c4959;
+    border: 1px solid #cecece;
+    border-radius: 10px 0 0 10px;
+}
+
+.new-patients__input::placeholder {
+    color: #cfcfcf;
+}
+.new-patients__btn {
+    background-color: #1376f8;
+    border-radius: 0 10px 10px 0;
+    padding: 15px 30px;
+    border: none;
+
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 155%;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+}
+.new-patients__img {
+}

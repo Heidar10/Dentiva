@@ -1,0 +1,42 @@
+.reassurance__content {
+    display: flex;
+    flex-direction: row;
+    gap: 160px;
+    margin: auto;
+    max-width: 1140px;
+    width: 100%;
+}
+.reassurance__info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: start;
+}
+.reassurance__title {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 125%;
+    text-transform: capitalize;
+    color: #011632;
+}
+
+.reassurance__title span {
+    background-image: url(../../images/lines.svg);
+    background-repeat: no-repeat;
+    background-position: center 100%;
+    background-size: 100% auto;
+}
+
+.reassurance__desc {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 155%;
+    letter-spacing: 0.01em;
+    color: #3c4959;
+}
+
+.reassurance__btn {
+    margin-top: 20px;
+}

@@ -1,0 +1,31 @@
+.promo__content {
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+    background-color: #011632;
+    border-radius: 10px;
+    padding: 50px 55px;
+    text-align: start;
+    max-width: 1064px;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+}
+.promo__info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.promo__title,
+.promo__desc {
+    color: white;
+}
+
+.promo__img {
+    border-radius: 10px;
+}
+
+.promo__btn {
+    margin-top: 10px;
+}

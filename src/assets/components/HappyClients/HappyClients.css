@@ -1,0 +1,114 @@
+.happy-clients__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.happy-clients__title span {
+    background-image: url(../../images/lines.svg);
+    background-repeat: no-repeat;
+    background-position: center 100%;
+    background-size: 100% auto;
+}
+
+/* Swiper */
+
+.happy-clients__swiper {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.happy-clients__slide {
+    height: auto;
+}
+
+.happy-clients__card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    border: 1px solid #011632; /* Тонка світло-сіра рамка */
+    box-shadow: none;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.happy-clients__header {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.happy-clients__info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+    justify-content: center;
+}
+.happy-clients__name {
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 155%;
+    letter-spacing: 0.02em;
+    color: #011632;
+}
+
+.happy-clients__desc {
+    font-size: 16px;
+    text-align: start;
+}
+
+.happy-clients__stars {
+    display: flex;
+    gap: 4px;
+}
+
+.happy-clients__stars .star {
+    font-size: 24px;
+    display: inline-block;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.happy-clients__stars .star-full {
+    background: #ffd700;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.happy-clients__stars .star-half {
+    background: linear-gradient(90deg, #ffd700 50%, #e0e0e0 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.happy-clients__stars .star-empty {
+    background: #e0e0e0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.happy-clients__nav {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 30px;
+}
+
+.happy-clients__button-prev,
+.happy-clients__button-next {
+    background: #011632;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    padding: 12px 24px;
+    display: flex;
+}
