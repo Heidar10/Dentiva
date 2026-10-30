@@ -1,4 +1,5 @@
 import AboutClinic from "../../components/AboutClinic/AboutClinic";
+import Consultation from "../../components/Consultation/Consultation";
 import Promo from "../../components/Promo/Promo";
 import Question from "../../components/Question/Question";
 import ServicesSection from "../../components/ServicesSection";
@@ -21,13 +22,13 @@ export default function Service() {
                         </p>
                     </div>
                 </div>
-
-                <ServicesSection />
-                <AboutClinic />
-                <Specialists />
-                <Question />
-                <Promo />
             </div>
+            <ServicesSection />
+            <Consultation />
+            <AboutClinic />
+            <Specialists />
+            <Question />
+            <Promo />
         </>
     );
 }
